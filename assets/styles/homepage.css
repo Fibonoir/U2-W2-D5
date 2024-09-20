@@ -1,0 +1,62 @@
+.dropdown-menu a:hover {
+    background-color: white !important; 
+    color: black !important;
+  }
+
+
+.offcanvas-body .dropdown-menu {
+position: relative !important; 
+transform: translate3d(0,0,0) !important;
+z-index: 1050 !important; 
+}
+
+#prev {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 99;
+}
+
+#next {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.row-fade {
+  position: relative;
+}
+
+.row-fade::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100px;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.682), transparent);
+  pointer-events: none;
+}
+
+footer {
+  margin-top: 8rem;
+  font-size: 0.8rem;
+  color: #7F7F7F !important;
+}
+
+footer ul {
+  color: #7F7F7F !important;
+}
+
+footer ul li {
+  margin-bottom: 0.5rem;
+}
+
+footer button {
+  color: #7F7F7F !important;
+  border-color: #7F7F7F !important;
+  font-size: 0.8rem !important;
+
+}
