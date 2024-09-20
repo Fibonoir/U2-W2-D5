@@ -27,7 +27,7 @@
           <img src="./assets/avatar.png" alt="avatar" width="100%" />
         </div>
         <div class="col-9">
-          <div class="pb-5 mb-lg-3 border-bottom border-secondary">
+          <div class="pb-4 mb-3 border-bottom border-secondary">
             <button class="rounded-0 border-0 w-75 bg-secondary text-white py-1 px-2 text-start mb-4" type="button">Strive Student</button>
             <p class="text-white-50">Language</p>
             <div class="dropdown"></div>
@@ -45,9 +45,32 @@
               <li><a class="dropdown-item" href="#">Italian </a></li>
             </ul>
           </div>
-          <div>
+          <div class="pb-4 mb-3 border-bottom border-secondary">
             <p class="text-white-50">Maturity Settings:</p>
+            <button class="ratings-button rounded-0 border-0 text-white py-1 px-2 text-start mb-3" type="button" width="30%">ALL MATURITY RATINGS</button>
+            <p>Show titles of all maturity ratings for this profile</p>
+            <button class="btn rounded-0 py-1 px-4 edit-button">EDIT</button>
           </div>
+          <div class="pb-1">
+            <p class="text-white-50">Autoplay controls</p>
+            <p class="text-white-50 d-flex align-items-center">
+              <input type="checkbox" id="autoplay-next" />
+              <label for="autoplay-next" class="custom-checkbox me-2"></label>
+              Autoplay next episode in a series on all devices
+            </p>
+            <p class="text-white-50 d-flex align-items-center">
+              <input type="checkbox" id="autoplay-next-2" />
+              <label for="autoplay-next-2" class="custom-checkbox-2 me-2"></label>
+              Autoplay next episode in a series on all devices
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row border-top border-secondary pt-3 mb-5">
+        <div class="col w-75 d-flex justify-content-center">
+          <button class="btn rounded-0 py-1 px-4 edit-button mx-2 fs-5 fw-medium last-buttons">SAVE</button>
+          <button class="btn rounded-0 py-1 px-4 edit-button mx-2 fs-5 fw-medium last-buttons">CANCEL</button>
+          <button class="btn rounded-0 py-1 px-4 edit-button mx-2 fs-5 fw-medium last-buttons">DELETE PROFILE</button>
         </div>
       </div>
     </main>
